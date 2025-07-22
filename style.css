@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100&family=Merriweather:ital,wght@1,300&family=Roboto+Slab:wght@100;200&display=swap');
+
+:root {
+    --dark-theme-color: #1e3268;
+    --medium-theme-color: #00b2eb;
+}
+
+#head {
+    font-family: 'Roboto Slab', serif;
+    /* font-family: 'IBM Plex Sans Arabic', sans-serif; */
+
+    margin: 2.5rem;
+    color: var(--dark-theme-color);
+    font-size: 1.5em;
+}
+
+.section1 {
+    max-width: 33%;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box {
+    height: 55px;
+    width: 66px;
+    border: 8px solid --dark-theme-color;
+    display: inline-block;
+    border-radius: 0;
+    padding: 0 .625rem;
+
+}
+
+#Btn {
+    font-size: 1rem;
+    line-height: 1.625;
+    background-color: var(--dark-theme-color);
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    color: #fff;
+    box-shadow: -.25rem -.25rem 0 0 var(--medium-theme-color);
+    transform: translate(.25rem, .25rem);
+    transform-style: preserve-3d;
+}
